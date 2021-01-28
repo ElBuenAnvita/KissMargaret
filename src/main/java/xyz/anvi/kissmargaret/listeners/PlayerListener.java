@@ -22,7 +22,7 @@ public class PlayerListener implements Listener {
     public void onPlayerInteract(PlayerInteractEntityEvent e) {
         Player player1 = e.getPlayer();
         Entity entity = e.getRightClicked();
-        if (!(e.getRightClicked() instanceof Player)) {
+        if (!(entity instanceof Player)) {
             return;
         }
 
