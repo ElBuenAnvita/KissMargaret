@@ -1,0 +1,8 @@
+name: KissMargaret
+version: ${project.version}
+main: xyz.anvi.kissmargaret.KissMargaret
+api-version: 1.15
+depend: [Margaret]
+authors: [ElBuenAnvita]
+description: Besos para el Margaret
+website: https://github.com/ElBuenAnvita/KissMargaret
