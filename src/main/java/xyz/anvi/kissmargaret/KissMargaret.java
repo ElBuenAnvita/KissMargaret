@@ -3,7 +3,7 @@ package xyz.anvi.kissmargaret;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
-import xyz.anvi.kissmargaret.Escuchadores.PlayerListener;
+import xyz.anvi.kissmargaret.listeners.PlayerListener;
 
 public final class KissMargaret extends JavaPlugin {
     public static KissMargaret instance;
